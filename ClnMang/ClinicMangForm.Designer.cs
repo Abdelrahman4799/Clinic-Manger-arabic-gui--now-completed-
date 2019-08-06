@@ -32,39 +32,16 @@
             this.docTab = new System.Windows.Forms.TabPage();
             this.docTabs = new System.Windows.Forms.TabControl();
             this.docMainInfoTab = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.listBox3 = new System.Windows.Forms.ListBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.listBox4 = new System.Windows.Forms.ListBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.listBox5 = new System.Windows.Forms.ListBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.listBox2 = new System.Windows.Forms.ListBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.addDrugBtn = new System.Windows.Forms.Button();
-            this.deleteDrugBtn = new System.Windows.Forms.Button();
-            this.drugList = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_medical = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -86,6 +63,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cashTab = new System.Windows.Forms.TabPage();
             this.dailyReservTab = new System.Windows.Forms.TabPage();
+            this.PrescriptionBtn = new System.Windows.Forms.Button();
             this.reservGrid = new System.Windows.Forms.DataGridView();
             this.Pat_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.patName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -117,27 +95,49 @@
             this.newReservTab = new System.Windows.Forms.TabPage();
             this.reservScreenTab = new System.Windows.Forms.TabPage();
             this.settingTab = new System.Windows.Forms.TabPage();
-            this.aboutTab = new System.Windows.Forms.TabPage();
-            this.logOutTab = new System.Windows.Forms.TabPage();
-            this.usersTab = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.sectionsCombo = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.userNameTxt = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.passordTxt = new System.Windows.Forms.TextBox();
-            this.addUserBtn = new System.Windows.Forms.Button();
-            this.deleteUserBtn = new System.Windows.Forms.Button();
-            this.usersTabOutBtn = new System.Windows.Forms.Button();
-            this.editUserBtn = new System.Windows.Forms.Button();
+            this.usersTab = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.idCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.userNameCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sectionCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrescriptionBtn = new System.Windows.Forms.Button();
+            this.editUserBtn = new System.Windows.Forms.Button();
+            this.usersTabOutBtn = new System.Windows.Forms.Button();
+            this.deleteUserBtn = new System.Windows.Forms.Button();
+            this.addUserBtn = new System.Windows.Forms.Button();
+            this.passordTxt = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.userNameTxt = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.sectionsCombo = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.aboutTab = new System.Windows.Forms.TabPage();
+            this.logOutTab = new System.Windows.Forms.TabPage();
+            this.DGV_medical = new System.Windows.Forms.DataGridView();
+            this.btn_add_medical = new System.Windows.Forms.Button();
+            this.btn_delete_medical = new System.Windows.Forms.Button();
+            this.btn_add_rays = new System.Windows.Forms.Button();
+            this.btn_delete_rays = new System.Windows.Forms.Button();
+            this.DGV_rays = new System.Windows.Forms.DataGridView();
+            this.txt_rays = new System.Windows.Forms.TextBox();
+            this.btn_add_analysis = new System.Windows.Forms.Button();
+            this.btn_delete_analysis = new System.Windows.Forms.Button();
+            this.DGV_anaysis = new System.Windows.Forms.DataGridView();
+            this.txt_analysis = new System.Windows.Forms.TextBox();
+            this.btn_add_syndrome = new System.Windows.Forms.Button();
+            this.btn_delete_syndrome = new System.Windows.Forms.Button();
+            this.DGV_syndrome = new System.Windows.Forms.DataGridView();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
+            this.txt_syndrome = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.mainTabs.SuspendLayout();
             this.docTab.SuspendLayout();
             this.docTabs.SuspendLayout();
@@ -150,9 +150,15 @@
             this.RecipTabs.SuspendLayout();
             this.newPatiTab.SuspendLayout();
             this.settingTab.SuspendLayout();
-            this.usersTab.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.usersTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.SuspendLayout();
             // 
             // mainTabs
@@ -205,39 +211,39 @@
             // docMainInfoTab
             // 
             this.docMainInfoTab.BackColor = System.Drawing.Color.LightGray;
+            this.docMainInfoTab.Controls.Add(this.textBox4);
+            this.docMainInfoTab.Controls.Add(this.textBox3);
+            this.docMainInfoTab.Controls.Add(this.txt_syndrome);
             this.docMainInfoTab.Controls.Add(this.button5);
             this.docMainInfoTab.Controls.Add(this.button6);
-            this.docMainInfoTab.Controls.Add(this.listBox3);
-            this.docMainInfoTab.Controls.Add(this.label9);
-            this.docMainInfoTab.Controls.Add(this.textBox4);
+            this.docMainInfoTab.Controls.Add(this.dataGridView7);
             this.docMainInfoTab.Controls.Add(this.button7);
             this.docMainInfoTab.Controls.Add(this.button8);
-            this.docMainInfoTab.Controls.Add(this.listBox4);
+            this.docMainInfoTab.Controls.Add(this.dataGridView6);
+            this.docMainInfoTab.Controls.Add(this.btn_add_syndrome);
+            this.docMainInfoTab.Controls.Add(this.btn_delete_syndrome);
+            this.docMainInfoTab.Controls.Add(this.DGV_syndrome);
+            this.docMainInfoTab.Controls.Add(this.btn_add_analysis);
+            this.docMainInfoTab.Controls.Add(this.btn_delete_analysis);
+            this.docMainInfoTab.Controls.Add(this.DGV_anaysis);
+            this.docMainInfoTab.Controls.Add(this.txt_analysis);
+            this.docMainInfoTab.Controls.Add(this.btn_add_rays);
+            this.docMainInfoTab.Controls.Add(this.btn_delete_rays);
+            this.docMainInfoTab.Controls.Add(this.DGV_rays);
+            this.docMainInfoTab.Controls.Add(this.txt_rays);
+            this.docMainInfoTab.Controls.Add(this.btn_add_medical);
+            this.docMainInfoTab.Controls.Add(this.btn_delete_medical);
+            this.docMainInfoTab.Controls.Add(this.DGV_medical);
+            this.docMainInfoTab.Controls.Add(this.label9);
             this.docMainInfoTab.Controls.Add(this.label10);
-            this.docMainInfoTab.Controls.Add(this.textBox5);
-            this.docMainInfoTab.Controls.Add(this.button9);
-            this.docMainInfoTab.Controls.Add(this.button10);
-            this.docMainInfoTab.Controls.Add(this.listBox5);
             this.docMainInfoTab.Controls.Add(this.label11);
-            this.docMainInfoTab.Controls.Add(this.textBox6);
             this.docMainInfoTab.Controls.Add(this.label12);
             this.docMainInfoTab.Controls.Add(this.label13);
             this.docMainInfoTab.Controls.Add(this.label14);
-            this.docMainInfoTab.Controls.Add(this.button3);
-            this.docMainInfoTab.Controls.Add(this.button4);
-            this.docMainInfoTab.Controls.Add(this.listBox2);
             this.docMainInfoTab.Controls.Add(this.label8);
-            this.docMainInfoTab.Controls.Add(this.textBox3);
-            this.docMainInfoTab.Controls.Add(this.button1);
-            this.docMainInfoTab.Controls.Add(this.button2);
-            this.docMainInfoTab.Controls.Add(this.listBox1);
             this.docMainInfoTab.Controls.Add(this.label7);
-            this.docMainInfoTab.Controls.Add(this.textBox2);
-            this.docMainInfoTab.Controls.Add(this.addDrugBtn);
-            this.docMainInfoTab.Controls.Add(this.deleteDrugBtn);
-            this.docMainInfoTab.Controls.Add(this.drugList);
             this.docMainInfoTab.Controls.Add(this.label6);
-            this.docMainInfoTab.Controls.Add(this.textBox1);
+            this.docMainInfoTab.Controls.Add(this.txt_medical);
             this.docMainInfoTab.Controls.Add(this.label5);
             this.docMainInfoTab.Controls.Add(this.label4);
             this.docMainInfoTab.Controls.Add(this.label3);
@@ -250,168 +256,45 @@
             this.docMainInfoTab.TabIndex = 0;
             this.docMainInfoTab.Text = "البيانات الاساسية";
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(161, 429);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 24);
-            this.button5.TabIndex = 42;
-            this.button5.Text = "اضافة";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(80, 429);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 24);
-            this.button6.TabIndex = 41;
-            this.button6.Text = "حذف";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // listBox3
-            // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 21;
-            this.listBox3.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.listBox3.Location = new System.Drawing.Point(80, 325);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(131, 88);
-            this.listBox3.TabIndex = 40;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(230, 298);
+            this.label9.Location = new System.Drawing.Point(230, 319);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(31, 18);
             this.label9.TabIndex = 39;
             this.label9.Text = "الاسم";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(80, 296);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(131, 20);
-            this.textBox4.TabIndex = 38;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(430, 429);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 24);
-            this.button7.TabIndex = 37;
-            this.button7.Text = "اضافة";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(349, 429);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 24);
-            this.button8.TabIndex = 36;
-            this.button8.Text = "حذف";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // listBox4
-            // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 21;
-            this.listBox4.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.listBox4.Location = new System.Drawing.Point(349, 325);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(131, 88);
-            this.listBox4.TabIndex = 35;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(499, 298);
+            this.label10.Location = new System.Drawing.Point(499, 319);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(31, 18);
             this.label10.TabIndex = 34;
             this.label10.Text = "الاسم";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(349, 296);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(131, 20);
-            this.textBox5.TabIndex = 33;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(692, 429);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 24);
-            this.button9.TabIndex = 32;
-            this.button9.Text = "اضافة";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(611, 429);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 24);
-            this.button10.TabIndex = 31;
-            this.button10.Text = "حذف";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // listBox5
-            // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.ItemHeight = 21;
-            this.listBox5.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.listBox5.Location = new System.Drawing.Point(611, 325);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(131, 88);
-            this.listBox5.TabIndex = 30;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(761, 298);
+            this.label11.Location = new System.Drawing.Point(761, 319);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(31, 18);
             this.label11.TabIndex = 29;
             this.label11.Text = "الاسم";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(611, 296);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(131, 20);
-            this.textBox6.TabIndex = 28;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
-            this.label12.Location = new System.Drawing.Point(447, 262);
+            this.label12.Location = new System.Drawing.Point(447, 283);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(43, 18);
             this.label12.TabIndex = 27;
@@ -422,7 +305,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(172, 262);
+            this.label13.Location = new System.Drawing.Point(172, 283);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(72, 18);
             this.label13.TabIndex = 26;
@@ -433,44 +316,11 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Dubai", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Blue;
-            this.label14.Location = new System.Drawing.Point(761, 262);
+            this.label14.Location = new System.Drawing.Point(761, 283);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(42, 18);
             this.label14.TabIndex = 25;
             this.label14.Text = "الاعراض";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(161, 217);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 24);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "اضافة";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(80, 217);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 24);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "حذف";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 21;
-            this.listBox2.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.listBox2.Location = new System.Drawing.Point(80, 113);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(131, 88);
-            this.listBox2.TabIndex = 22;
             // 
             // label8
             // 
@@ -484,51 +334,6 @@
             this.label8.Text = "الاسم";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(80, 84);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(131, 20);
-            this.textBox3.TabIndex = 20;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(430, 217);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 24);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "اضافة";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(349, 217);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 24);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "حذف";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 21;
-            this.listBox1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.listBox1.Location = new System.Drawing.Point(349, 113);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(131, 88);
-            this.listBox1.TabIndex = 17;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -540,51 +345,6 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "الاسم";
             this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(349, 84);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 20);
-            this.textBox2.TabIndex = 15;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // addDrugBtn
-            // 
-            this.addDrugBtn.Location = new System.Drawing.Point(692, 217);
-            this.addDrugBtn.Name = "addDrugBtn";
-            this.addDrugBtn.Size = new System.Drawing.Size(75, 24);
-            this.addDrugBtn.TabIndex = 14;
-            this.addDrugBtn.Text = "اضافة";
-            this.addDrugBtn.UseVisualStyleBackColor = true;
-            this.addDrugBtn.Click += new System.EventHandler(this.addDrugBtn_Click);
-            // 
-            // deleteDrugBtn
-            // 
-            this.deleteDrugBtn.Location = new System.Drawing.Point(611, 217);
-            this.deleteDrugBtn.Name = "deleteDrugBtn";
-            this.deleteDrugBtn.Size = new System.Drawing.Size(75, 24);
-            this.deleteDrugBtn.TabIndex = 13;
-            this.deleteDrugBtn.Text = "حذف";
-            this.deleteDrugBtn.UseVisualStyleBackColor = true;
-            this.deleteDrugBtn.Click += new System.EventHandler(this.deleteDrugBtn_Click);
-            // 
-            // drugList
-            // 
-            this.drugList.FormattingEnabled = true;
-            this.drugList.ItemHeight = 21;
-            this.drugList.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.drugList.Location = new System.Drawing.Point(611, 113);
-            this.drugList.Name = "drugList";
-            this.drugList.Size = new System.Drawing.Size(131, 88);
-            this.drugList.TabIndex = 12;
-            this.drugList.SelectedIndexChanged += new System.EventHandler(this.drugList_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -598,14 +358,15 @@
             this.label6.Text = "الاسم";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox1
+            // txt_medical
             // 
-            this.textBox1.Location = new System.Drawing.Point(611, 84);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 20);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txt_medical.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_medical.Location = new System.Drawing.Point(605, 84);
+            this.txt_medical.Multiline = true;
+            this.txt_medical.Name = "txt_medical";
+            this.txt_medical.Size = new System.Drawing.Size(150, 30);
+            this.txt_medical.TabIndex = 10;
+            this.txt_medical.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -820,6 +581,16 @@
             this.dailyReservTab.Size = new System.Drawing.Size(837, 500);
             this.dailyReservTab.TabIndex = 3;
             this.dailyReservTab.Text = "حجوزات اليوم";
+            // 
+            // PrescriptionBtn
+            // 
+            this.PrescriptionBtn.Location = new System.Drawing.Point(364, 426);
+            this.PrescriptionBtn.Name = "PrescriptionBtn";
+            this.PrescriptionBtn.Size = new System.Drawing.Size(69, 43);
+            this.PrescriptionBtn.TabIndex = 18;
+            this.PrescriptionBtn.Text = "كتابة روشتة";
+            this.PrescriptionBtn.UseVisualStyleBackColor = true;
+            this.PrescriptionBtn.Click += new System.EventHandler(this.PrescriptionBtn_Click);
             // 
             // reservGrid
             // 
@@ -1115,23 +886,15 @@
             this.settingTab.TabIndex = 2;
             this.settingTab.Text = "الاعدادات";
             // 
-            // aboutTab
+            // tabControl1
             // 
-            this.aboutTab.BackColor = System.Drawing.Color.LightGray;
-            this.aboutTab.Location = new System.Drawing.Point(4, 22);
-            this.aboutTab.Name = "aboutTab";
-            this.aboutTab.Size = new System.Drawing.Size(841, 522);
-            this.aboutTab.TabIndex = 3;
-            this.aboutTab.Text = "عن";
-            // 
-            // logOutTab
-            // 
-            this.logOutTab.BackColor = System.Drawing.Color.LightGray;
-            this.logOutTab.Location = new System.Drawing.Point(4, 22);
-            this.logOutTab.Name = "logOutTab";
-            this.logOutTab.Size = new System.Drawing.Size(841, 522);
-            this.logOutTab.TabIndex = 4;
-            this.logOutTab.Text = "خروج";
+            this.tabControl1.Controls.Add(this.usersTab);
+            this.tabControl1.Location = new System.Drawing.Point(-4, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.RightToLeftLayout = true;
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(845, 526);
+            this.tabControl1.TabIndex = 0;
             // 
             // usersTab
             // 
@@ -1154,119 +917,6 @@
             this.usersTab.Size = new System.Drawing.Size(837, 500);
             this.usersTab.TabIndex = 0;
             this.usersTab.Text = "المستخدمين";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.usersTab);
-            this.tabControl1.Location = new System.Drawing.Point(-4, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.RightToLeftLayout = true;
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(845, 526);
-            this.tabControl1.TabIndex = 0;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Blue;
-            this.label22.Location = new System.Drawing.Point(359, 24);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(92, 27);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "المستخدمين";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
-            this.label23.Location = new System.Drawing.Point(712, 86);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 24);
-            this.label23.TabIndex = 19;
-            this.label23.Text = "القسم : ";
-            // 
-            // sectionsCombo
-            // 
-            this.sectionsCombo.FormattingEnabled = true;
-            this.sectionsCombo.Items.AddRange(new object[] {
-            "section1",
-            "section2",
-            "section3"});
-            this.sectionsCombo.Location = new System.Drawing.Point(114, 89);
-            this.sectionsCombo.Name = "sectionsCombo";
-            this.sectionsCombo.Size = new System.Drawing.Size(549, 21);
-            this.sectionsCombo.TabIndex = 20;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
-            this.label24.Location = new System.Drawing.Point(712, 129);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(96, 24);
-            this.label24.TabIndex = 21;
-            this.label24.Text = "اسم المستخدم :";
-            // 
-            // userNameTxt
-            // 
-            this.userNameTxt.Location = new System.Drawing.Point(114, 130);
-            this.userNameTxt.Name = "userNameTxt";
-            this.userNameTxt.Size = new System.Drawing.Size(549, 21);
-            this.userNameTxt.TabIndex = 22;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
-            this.label25.Location = new System.Drawing.Point(712, 181);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(72, 24);
-            this.label25.TabIndex = 23;
-            this.label25.Text = "كلمة المرور :";
-            // 
-            // passordTxt
-            // 
-            this.passordTxt.Location = new System.Drawing.Point(114, 181);
-            this.passordTxt.Name = "passordTxt";
-            this.passordTxt.Size = new System.Drawing.Size(549, 21);
-            this.passordTxt.TabIndex = 24;
-            // 
-            // addUserBtn
-            // 
-            this.addUserBtn.Location = new System.Drawing.Point(588, 251);
-            this.addUserBtn.Name = "addUserBtn";
-            this.addUserBtn.Size = new System.Drawing.Size(75, 23);
-            this.addUserBtn.TabIndex = 25;
-            this.addUserBtn.Text = "اضافة";
-            this.addUserBtn.UseVisualStyleBackColor = true;
-            // 
-            // deleteUserBtn
-            // 
-            this.deleteUserBtn.Location = new System.Drawing.Point(459, 251);
-            this.deleteUserBtn.Name = "deleteUserBtn";
-            this.deleteUserBtn.Size = new System.Drawing.Size(75, 23);
-            this.deleteUserBtn.TabIndex = 26;
-            this.deleteUserBtn.Text = "حذف";
-            this.deleteUserBtn.UseVisualStyleBackColor = true;
-            // 
-            // usersTabOutBtn
-            // 
-            this.usersTabOutBtn.Location = new System.Drawing.Point(175, 251);
-            this.usersTabOutBtn.Name = "usersTabOutBtn";
-            this.usersTabOutBtn.Size = new System.Drawing.Size(75, 23);
-            this.usersTabOutBtn.TabIndex = 27;
-            this.usersTabOutBtn.Text = "خروج";
-            this.usersTabOutBtn.UseVisualStyleBackColor = true;
-            // 
-            // editUserBtn
-            // 
-            this.editUserBtn.Location = new System.Drawing.Point(311, 251);
-            this.editUserBtn.Name = "editUserBtn";
-            this.editUserBtn.Size = new System.Drawing.Size(75, 23);
-            this.editUserBtn.TabIndex = 28;
-            this.editUserBtn.Text = "تعديل";
-            this.editUserBtn.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
@@ -1304,15 +954,336 @@
             this.sectionCol.Name = "sectionCol";
             this.sectionCol.Width = 150;
             // 
-            // PrescriptionBtn
+            // editUserBtn
             // 
-            this.PrescriptionBtn.Location = new System.Drawing.Point(364, 426);
-            this.PrescriptionBtn.Name = "PrescriptionBtn";
-            this.PrescriptionBtn.Size = new System.Drawing.Size(69, 43);
-            this.PrescriptionBtn.TabIndex = 18;
-            this.PrescriptionBtn.Text = "كتابة روشتة";
-            this.PrescriptionBtn.UseVisualStyleBackColor = true;
-            this.PrescriptionBtn.Click += new System.EventHandler(this.PrescriptionBtn_Click);
+            this.editUserBtn.Location = new System.Drawing.Point(311, 251);
+            this.editUserBtn.Name = "editUserBtn";
+            this.editUserBtn.Size = new System.Drawing.Size(75, 23);
+            this.editUserBtn.TabIndex = 28;
+            this.editUserBtn.Text = "تعديل";
+            this.editUserBtn.UseVisualStyleBackColor = true;
+            // 
+            // usersTabOutBtn
+            // 
+            this.usersTabOutBtn.Location = new System.Drawing.Point(175, 251);
+            this.usersTabOutBtn.Name = "usersTabOutBtn";
+            this.usersTabOutBtn.Size = new System.Drawing.Size(75, 23);
+            this.usersTabOutBtn.TabIndex = 27;
+            this.usersTabOutBtn.Text = "خروج";
+            this.usersTabOutBtn.UseVisualStyleBackColor = true;
+            // 
+            // deleteUserBtn
+            // 
+            this.deleteUserBtn.Location = new System.Drawing.Point(459, 251);
+            this.deleteUserBtn.Name = "deleteUserBtn";
+            this.deleteUserBtn.Size = new System.Drawing.Size(75, 23);
+            this.deleteUserBtn.TabIndex = 26;
+            this.deleteUserBtn.Text = "حذف";
+            this.deleteUserBtn.UseVisualStyleBackColor = true;
+            // 
+            // addUserBtn
+            // 
+            this.addUserBtn.Location = new System.Drawing.Point(588, 251);
+            this.addUserBtn.Name = "addUserBtn";
+            this.addUserBtn.Size = new System.Drawing.Size(75, 23);
+            this.addUserBtn.TabIndex = 25;
+            this.addUserBtn.Text = "اضافة";
+            this.addUserBtn.UseVisualStyleBackColor = true;
+            // 
+            // passordTxt
+            // 
+            this.passordTxt.Location = new System.Drawing.Point(114, 181);
+            this.passordTxt.Name = "passordTxt";
+            this.passordTxt.Size = new System.Drawing.Size(549, 21);
+            this.passordTxt.TabIndex = 24;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label25.Location = new System.Drawing.Point(712, 181);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(72, 24);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "كلمة المرور :";
+            // 
+            // userNameTxt
+            // 
+            this.userNameTxt.Location = new System.Drawing.Point(114, 130);
+            this.userNameTxt.Name = "userNameTxt";
+            this.userNameTxt.Size = new System.Drawing.Size(549, 21);
+            this.userNameTxt.TabIndex = 22;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label24.Location = new System.Drawing.Point(712, 129);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(96, 24);
+            this.label24.TabIndex = 21;
+            this.label24.Text = "اسم المستخدم :";
+            // 
+            // sectionsCombo
+            // 
+            this.sectionsCombo.FormattingEnabled = true;
+            this.sectionsCombo.Items.AddRange(new object[] {
+            "section1",
+            "section2",
+            "section3"});
+            this.sectionsCombo.Location = new System.Drawing.Point(114, 89);
+            this.sectionsCombo.Name = "sectionsCombo";
+            this.sectionsCombo.Size = new System.Drawing.Size(549, 21);
+            this.sectionsCombo.TabIndex = 20;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label23.Location = new System.Drawing.Point(712, 86);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(52, 24);
+            this.label23.TabIndex = 19;
+            this.label23.Text = "القسم : ";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Blue;
+            this.label22.Location = new System.Drawing.Point(359, 24);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(92, 27);
+            this.label22.TabIndex = 18;
+            this.label22.Text = "المستخدمين";
+            // 
+            // aboutTab
+            // 
+            this.aboutTab.BackColor = System.Drawing.Color.LightGray;
+            this.aboutTab.Location = new System.Drawing.Point(4, 22);
+            this.aboutTab.Name = "aboutTab";
+            this.aboutTab.Size = new System.Drawing.Size(841, 522);
+            this.aboutTab.TabIndex = 3;
+            this.aboutTab.Text = "عن";
+            // 
+            // logOutTab
+            // 
+            this.logOutTab.BackColor = System.Drawing.Color.LightGray;
+            this.logOutTab.Location = new System.Drawing.Point(4, 22);
+            this.logOutTab.Name = "logOutTab";
+            this.logOutTab.Size = new System.Drawing.Size(841, 522);
+            this.logOutTab.TabIndex = 4;
+            this.logOutTab.Text = "خروج";
+            // 
+            // DGV_medical
+            // 
+            this.DGV_medical.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_medical.Location = new System.Drawing.Point(605, 120);
+            this.DGV_medical.Name = "DGV_medical";
+            this.DGV_medical.Size = new System.Drawing.Size(184, 105);
+            this.DGV_medical.TabIndex = 43;
+            this.DGV_medical.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_medical_CellClick);
+            // 
+            // btn_add_medical
+            // 
+            this.btn_add_medical.Location = new System.Drawing.Point(701, 231);
+            this.btn_add_medical.Name = "btn_add_medical";
+            this.btn_add_medical.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_medical.TabIndex = 45;
+            this.btn_add_medical.Text = "اضافة";
+            this.btn_add_medical.UseVisualStyleBackColor = true;
+            this.btn_add_medical.Click += new System.EventHandler(this.btn_add_medical_Click);
+            // 
+            // btn_delete_medical
+            // 
+            this.btn_delete_medical.Location = new System.Drawing.Point(605, 231);
+            this.btn_delete_medical.Name = "btn_delete_medical";
+            this.btn_delete_medical.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_medical.TabIndex = 44;
+            this.btn_delete_medical.Text = "حذف";
+            this.btn_delete_medical.UseVisualStyleBackColor = true;
+            this.btn_delete_medical.Click += new System.EventHandler(this.btn_delete_medical_Click);
+            // 
+            // btn_add_rays
+            // 
+            this.btn_add_rays.Location = new System.Drawing.Point(439, 231);
+            this.btn_add_rays.Name = "btn_add_rays";
+            this.btn_add_rays.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_rays.TabIndex = 49;
+            this.btn_add_rays.Text = "اضافة";
+            this.btn_add_rays.UseVisualStyleBackColor = true;
+            this.btn_add_rays.Click += new System.EventHandler(this.btn_add_rays_Click);
+            // 
+            // btn_delete_rays
+            // 
+            this.btn_delete_rays.Location = new System.Drawing.Point(343, 231);
+            this.btn_delete_rays.Name = "btn_delete_rays";
+            this.btn_delete_rays.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_rays.TabIndex = 48;
+            this.btn_delete_rays.Text = "حذف";
+            this.btn_delete_rays.UseVisualStyleBackColor = true;
+            this.btn_delete_rays.Click += new System.EventHandler(this.btn_delete_rays_Click);
+            // 
+            // DGV_rays
+            // 
+            this.DGV_rays.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_rays.Location = new System.Drawing.Point(343, 120);
+            this.DGV_rays.Name = "DGV_rays";
+            this.DGV_rays.Size = new System.Drawing.Size(184, 105);
+            this.DGV_rays.TabIndex = 47;
+            this.DGV_rays.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_rays_CellClick);
+            // 
+            // txt_rays
+            // 
+            this.txt_rays.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_rays.Location = new System.Drawing.Point(343, 84);
+            this.txt_rays.Multiline = true;
+            this.txt_rays.Name = "txt_rays";
+            this.txt_rays.Size = new System.Drawing.Size(150, 30);
+            this.txt_rays.TabIndex = 46;
+            // 
+            // btn_add_analysis
+            // 
+            this.btn_add_analysis.Location = new System.Drawing.Point(170, 231);
+            this.btn_add_analysis.Name = "btn_add_analysis";
+            this.btn_add_analysis.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_analysis.TabIndex = 53;
+            this.btn_add_analysis.Text = "اضافة";
+            this.btn_add_analysis.UseVisualStyleBackColor = true;
+            this.btn_add_analysis.Click += new System.EventHandler(this.btn_add_analysis_Click);
+            // 
+            // btn_delete_analysis
+            // 
+            this.btn_delete_analysis.Location = new System.Drawing.Point(74, 231);
+            this.btn_delete_analysis.Name = "btn_delete_analysis";
+            this.btn_delete_analysis.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_analysis.TabIndex = 52;
+            this.btn_delete_analysis.Text = "حذف";
+            this.btn_delete_analysis.UseVisualStyleBackColor = true;
+            this.btn_delete_analysis.Click += new System.EventHandler(this.btn_delete_analysis_Click);
+            // 
+            // DGV_anaysis
+            // 
+            this.DGV_anaysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_anaysis.Location = new System.Drawing.Point(74, 120);
+            this.DGV_anaysis.Name = "DGV_anaysis";
+            this.DGV_anaysis.Size = new System.Drawing.Size(184, 105);
+            this.DGV_anaysis.TabIndex = 51;
+            this.DGV_anaysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_anaysis_CellClick);
+            // 
+            // txt_analysis
+            // 
+            this.txt_analysis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_analysis.Location = new System.Drawing.Point(74, 84);
+            this.txt_analysis.Multiline = true;
+            this.txt_analysis.Name = "txt_analysis";
+            this.txt_analysis.Size = new System.Drawing.Size(150, 30);
+            this.txt_analysis.TabIndex = 50;
+            // 
+            // btn_add_syndrome
+            // 
+            this.btn_add_syndrome.Location = new System.Drawing.Point(701, 452);
+            this.btn_add_syndrome.Name = "btn_add_syndrome";
+            this.btn_add_syndrome.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_syndrome.TabIndex = 57;
+            this.btn_add_syndrome.Text = "اضافة";
+            this.btn_add_syndrome.UseVisualStyleBackColor = true;
+            // 
+            // btn_delete_syndrome
+            // 
+            this.btn_delete_syndrome.Location = new System.Drawing.Point(605, 452);
+            this.btn_delete_syndrome.Name = "btn_delete_syndrome";
+            this.btn_delete_syndrome.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_syndrome.TabIndex = 56;
+            this.btn_delete_syndrome.Text = "حذف";
+            this.btn_delete_syndrome.UseVisualStyleBackColor = true;
+            // 
+            // DGV_syndrome
+            // 
+            this.DGV_syndrome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_syndrome.Location = new System.Drawing.Point(605, 346);
+            this.DGV_syndrome.Name = "DGV_syndrome";
+            this.DGV_syndrome.Size = new System.Drawing.Size(184, 100);
+            this.DGV_syndrome.TabIndex = 55;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(439, 452);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(88, 24);
+            this.button7.TabIndex = 61;
+            this.button7.Text = "اضافة";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(343, 452);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(90, 24);
+            this.button8.TabIndex = 60;
+            this.button8.Text = "حذف";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Location = new System.Drawing.Point(343, 346);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.Size = new System.Drawing.Size(184, 100);
+            this.dataGridView6.TabIndex = 59;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(170, 452);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 24);
+            this.button5.TabIndex = 65;
+            this.button5.Text = "اضافة";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(74, 452);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(90, 24);
+            this.button6.TabIndex = 64;
+            this.button6.Text = "حذف";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Location = new System.Drawing.Point(74, 346);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.Size = new System.Drawing.Size(184, 100);
+            this.dataGridView7.TabIndex = 63;
+            // 
+            // txt_syndrome
+            // 
+            this.txt_syndrome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_syndrome.Location = new System.Drawing.Point(605, 310);
+            this.txt_syndrome.Multiline = true;
+            this.txt_syndrome.Name = "txt_syndrome";
+            this.txt_syndrome.Size = new System.Drawing.Size(150, 30);
+            this.txt_syndrome.TabIndex = 66;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.textBox3.Location = new System.Drawing.Point(343, 310);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(150, 30);
+            this.textBox3.TabIndex = 67;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.textBox4.Location = new System.Drawing.Point(74, 310);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(150, 30);
+            this.textBox4.TabIndex = 68;
             // 
             // ClinicMangForm
             // 
@@ -1340,10 +1311,16 @@
             this.newPatiTab.ResumeLayout(false);
             this.newPatiTab.PerformLayout();
             this.settingTab.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
             this.usersTab.ResumeLayout(false);
             this.usersTab.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1377,38 +1354,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn exmPriceCol;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox drugList;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_medical;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button addDrugBtn;
-        private System.Windows.Forms.Button deleteDrugBtn;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.ListBox listBox4;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -1460,6 +1414,29 @@
         private System.Windows.Forms.TextBox userNameTxt;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button PrescriptionBtn;
+        private System.Windows.Forms.Button btn_add_medical;
+        private System.Windows.Forms.Button btn_delete_medical;
+        private System.Windows.Forms.DataGridView DGV_medical;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridView dataGridView7;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.Button btn_add_syndrome;
+        private System.Windows.Forms.Button btn_delete_syndrome;
+        private System.Windows.Forms.DataGridView DGV_syndrome;
+        private System.Windows.Forms.Button btn_add_analysis;
+        private System.Windows.Forms.Button btn_delete_analysis;
+        private System.Windows.Forms.DataGridView DGV_anaysis;
+        private System.Windows.Forms.TextBox txt_analysis;
+        private System.Windows.Forms.Button btn_add_rays;
+        private System.Windows.Forms.Button btn_delete_rays;
+        private System.Windows.Forms.DataGridView DGV_rays;
+        private System.Windows.Forms.TextBox txt_rays;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_syndrome;
 
     }
 }
