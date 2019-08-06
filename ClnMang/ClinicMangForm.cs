@@ -136,5 +136,11 @@ namespace ClnMang
         {
 
         }
+
+        private void PrescriptionBtn_Click(object sender, EventArgs e)
+        {
+            PrescriptionForm b1 = new PrescriptionForm();
+            b1.Show();
+        }
     }
 }
