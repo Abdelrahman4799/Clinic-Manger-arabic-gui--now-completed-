@@ -28,10 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClinicMangForm));
             this.mainTabs = new System.Windows.Forms.TabControl();
             this.docTab = new System.Windows.Forms.TabPage();
             this.docTabs = new System.Windows.Forms.TabControl();
             this.docMainInfoTab = new System.Windows.Forms.TabPage();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_syndrome = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.btn_add_syndrome = new System.Windows.Forms.Button();
+            this.btn_delete_syndrome = new System.Windows.Forms.Button();
+            this.DGV_syndrome = new System.Windows.Forms.DataGridView();
+            this.btn_add_analysis = new System.Windows.Forms.Button();
+            this.btn_delete_analysis = new System.Windows.Forms.Button();
+            this.DGV_anaysis = new System.Windows.Forms.DataGridView();
+            this.txt_analysis = new System.Windows.Forms.TextBox();
+            this.btn_add_rays = new System.Windows.Forms.Button();
+            this.btn_delete_rays = new System.Windows.Forms.Button();
+            this.DGV_rays = new System.Windows.Forms.DataGridView();
+            this.txt_rays = new System.Windows.Forms.TextBox();
+            this.btn_add_medical = new System.Windows.Forms.Button();
+            this.btn_delete_medical = new System.Windows.Forms.Button();
+            this.DGV_medical = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -115,50 +140,60 @@
             this.label22 = new System.Windows.Forms.Label();
             this.aboutTab = new System.Windows.Forms.TabPage();
             this.logOutTab = new System.Windows.Forms.TabPage();
-            this.DGV_medical = new System.Windows.Forms.DataGridView();
-            this.btn_add_medical = new System.Windows.Forms.Button();
-            this.btn_delete_medical = new System.Windows.Forms.Button();
-            this.btn_add_rays = new System.Windows.Forms.Button();
-            this.btn_delete_rays = new System.Windows.Forms.Button();
-            this.DGV_rays = new System.Windows.Forms.DataGridView();
-            this.txt_rays = new System.Windows.Forms.TextBox();
-            this.btn_add_analysis = new System.Windows.Forms.Button();
-            this.btn_delete_analysis = new System.Windows.Forms.Button();
-            this.DGV_anaysis = new System.Windows.Forms.DataGridView();
-            this.txt_analysis = new System.Windows.Forms.TextBox();
-            this.btn_add_syndrome = new System.Windows.Forms.Button();
-            this.btn_delete_syndrome = new System.Windows.Forms.Button();
-            this.DGV_syndrome = new System.Windows.Forms.DataGridView();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.txt_syndrome = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label26 = new System.Windows.Forms.Label();
+            this.moneyTxt = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.patiCombo = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.typeCombo = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.paymentTxt = new System.Windows.Forms.TextBox();
+            this.reseBtn = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.nameCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ezz = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.logOutBtn = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.mainTabs.SuspendLayout();
             this.docTab.SuspendLayout();
             this.docTabs.SuspendLayout();
             this.docMainInfoTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).BeginInit();
             this.examinationTypeTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.cashTab.SuspendLayout();
             this.dailyReservTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.reservGrid)).BeginInit();
             this.recipTab.SuspendLayout();
             this.RecipTabs.SuspendLayout();
             this.newPatiTab.SuspendLayout();
+            this.newReservTab.SuspendLayout();
+            this.reservScreenTab.SuspendLayout();
             this.settingTab.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.usersTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.aboutTab.SuspendLayout();
+            this.logOutTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // mainTabs
@@ -168,7 +203,9 @@
             this.mainTabs.Controls.Add(this.settingTab);
             this.mainTabs.Controls.Add(this.aboutTab);
             this.mainTabs.Controls.Add(this.logOutTab);
+            this.mainTabs.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.mainTabs.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainTabs.ImageList = this.imageList1;
             this.mainTabs.Location = new System.Drawing.Point(21, 12);
             this.mainTabs.Name = "mainTabs";
             this.mainTabs.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -184,11 +221,12 @@
             this.docTab.BackColor = System.Drawing.Color.LightGray;
             this.docTab.Controls.Add(this.docTabs);
             this.docTab.Font = new System.Drawing.Font("Dubai", 8.999999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.docTab.Location = new System.Drawing.Point(4, 22);
+            this.docTab.ImageIndex = 1;
+            this.docTab.Location = new System.Drawing.Point(4, 23);
             this.docTab.Name = "docTab";
             this.docTab.Padding = new System.Windows.Forms.Padding(3);
             this.docTab.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.docTab.Size = new System.Drawing.Size(841, 522);
+            this.docTab.Size = new System.Drawing.Size(841, 521);
             this.docTab.TabIndex = 0;
             this.docTab.Text = "الدكتور";
             this.docTab.Click += new System.EventHandler(this.tabPage1_Click_1);
@@ -201,6 +239,7 @@
             this.docTabs.Controls.Add(this.cashTab);
             this.docTabs.Controls.Add(this.dailyReservTab);
             this.docTabs.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.docTabs.ImageList = this.imageList1;
             this.docTabs.Location = new System.Drawing.Point(-4, 0);
             this.docTabs.Name = "docTabs";
             this.docTabs.RightToLeftLayout = true;
@@ -249,12 +288,223 @@
             this.docMainInfoTab.Controls.Add(this.label3);
             this.docMainInfoTab.Controls.Add(this.label2);
             this.docMainInfoTab.Font = new System.Drawing.Font("Dubai", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.docMainInfoTab.Location = new System.Drawing.Point(4, 22);
+            this.docMainInfoTab.ImageIndex = 10;
+            this.docMainInfoTab.Location = new System.Drawing.Point(4, 23);
             this.docMainInfoTab.Name = "docMainInfoTab";
             this.docMainInfoTab.Padding = new System.Windows.Forms.Padding(3);
-            this.docMainInfoTab.Size = new System.Drawing.Size(837, 500);
+            this.docMainInfoTab.Size = new System.Drawing.Size(837, 499);
             this.docMainInfoTab.TabIndex = 0;
             this.docMainInfoTab.Text = "البيانات الاساسية";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.textBox4.Location = new System.Drawing.Point(74, 310);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(150, 30);
+            this.textBox4.TabIndex = 68;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.textBox3.Location = new System.Drawing.Point(343, 310);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(150, 30);
+            this.textBox3.TabIndex = 67;
+            // 
+            // txt_syndrome
+            // 
+            this.txt_syndrome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_syndrome.Location = new System.Drawing.Point(605, 310);
+            this.txt_syndrome.Multiline = true;
+            this.txt_syndrome.Name = "txt_syndrome";
+            this.txt_syndrome.Size = new System.Drawing.Size(150, 30);
+            this.txt_syndrome.TabIndex = 66;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(170, 452);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 24);
+            this.button5.TabIndex = 65;
+            this.button5.Text = "اضافة";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(74, 452);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(90, 24);
+            this.button6.TabIndex = 64;
+            this.button6.Text = "حذف";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Location = new System.Drawing.Point(74, 346);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.Size = new System.Drawing.Size(184, 100);
+            this.dataGridView7.TabIndex = 63;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(439, 452);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(88, 24);
+            this.button7.TabIndex = 61;
+            this.button7.Text = "اضافة";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(343, 452);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(90, 24);
+            this.button8.TabIndex = 60;
+            this.button8.Text = "حذف";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Location = new System.Drawing.Point(343, 346);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.Size = new System.Drawing.Size(184, 100);
+            this.dataGridView6.TabIndex = 59;
+            // 
+            // btn_add_syndrome
+            // 
+            this.btn_add_syndrome.Location = new System.Drawing.Point(701, 452);
+            this.btn_add_syndrome.Name = "btn_add_syndrome";
+            this.btn_add_syndrome.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_syndrome.TabIndex = 57;
+            this.btn_add_syndrome.Text = "اضافة";
+            this.btn_add_syndrome.UseVisualStyleBackColor = true;
+            // 
+            // btn_delete_syndrome
+            // 
+            this.btn_delete_syndrome.Location = new System.Drawing.Point(605, 452);
+            this.btn_delete_syndrome.Name = "btn_delete_syndrome";
+            this.btn_delete_syndrome.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_syndrome.TabIndex = 56;
+            this.btn_delete_syndrome.Text = "حذف";
+            this.btn_delete_syndrome.UseVisualStyleBackColor = true;
+            // 
+            // DGV_syndrome
+            // 
+            this.DGV_syndrome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_syndrome.Location = new System.Drawing.Point(605, 346);
+            this.DGV_syndrome.Name = "DGV_syndrome";
+            this.DGV_syndrome.Size = new System.Drawing.Size(184, 100);
+            this.DGV_syndrome.TabIndex = 55;
+            // 
+            // btn_add_analysis
+            // 
+            this.btn_add_analysis.Location = new System.Drawing.Point(170, 231);
+            this.btn_add_analysis.Name = "btn_add_analysis";
+            this.btn_add_analysis.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_analysis.TabIndex = 53;
+            this.btn_add_analysis.Text = "اضافة";
+            this.btn_add_analysis.UseVisualStyleBackColor = true;
+            this.btn_add_analysis.Click += new System.EventHandler(this.btn_add_analysis_Click);
+            // 
+            // btn_delete_analysis
+            // 
+            this.btn_delete_analysis.Location = new System.Drawing.Point(74, 231);
+            this.btn_delete_analysis.Name = "btn_delete_analysis";
+            this.btn_delete_analysis.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_analysis.TabIndex = 52;
+            this.btn_delete_analysis.Text = "حذف";
+            this.btn_delete_analysis.UseVisualStyleBackColor = true;
+            this.btn_delete_analysis.Click += new System.EventHandler(this.btn_delete_analysis_Click);
+            // 
+            // DGV_anaysis
+            // 
+            this.DGV_anaysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_anaysis.Location = new System.Drawing.Point(74, 120);
+            this.DGV_anaysis.Name = "DGV_anaysis";
+            this.DGV_anaysis.Size = new System.Drawing.Size(184, 105);
+            this.DGV_anaysis.TabIndex = 51;
+            this.DGV_anaysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_anaysis_CellClick);
+            // 
+            // txt_analysis
+            // 
+            this.txt_analysis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_analysis.Location = new System.Drawing.Point(74, 84);
+            this.txt_analysis.Multiline = true;
+            this.txt_analysis.Name = "txt_analysis";
+            this.txt_analysis.Size = new System.Drawing.Size(150, 30);
+            this.txt_analysis.TabIndex = 50;
+            // 
+            // btn_add_rays
+            // 
+            this.btn_add_rays.Location = new System.Drawing.Point(439, 231);
+            this.btn_add_rays.Name = "btn_add_rays";
+            this.btn_add_rays.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_rays.TabIndex = 49;
+            this.btn_add_rays.Text = "اضافة";
+            this.btn_add_rays.UseVisualStyleBackColor = true;
+            this.btn_add_rays.Click += new System.EventHandler(this.btn_add_rays_Click);
+            // 
+            // btn_delete_rays
+            // 
+            this.btn_delete_rays.Location = new System.Drawing.Point(343, 231);
+            this.btn_delete_rays.Name = "btn_delete_rays";
+            this.btn_delete_rays.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_rays.TabIndex = 48;
+            this.btn_delete_rays.Text = "حذف";
+            this.btn_delete_rays.UseVisualStyleBackColor = true;
+            this.btn_delete_rays.Click += new System.EventHandler(this.btn_delete_rays_Click);
+            // 
+            // DGV_rays
+            // 
+            this.DGV_rays.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_rays.Location = new System.Drawing.Point(343, 120);
+            this.DGV_rays.Name = "DGV_rays";
+            this.DGV_rays.Size = new System.Drawing.Size(184, 105);
+            this.DGV_rays.TabIndex = 47;
+            this.DGV_rays.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_rays_CellClick);
+            // 
+            // txt_rays
+            // 
+            this.txt_rays.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.txt_rays.Location = new System.Drawing.Point(343, 84);
+            this.txt_rays.Multiline = true;
+            this.txt_rays.Name = "txt_rays";
+            this.txt_rays.Size = new System.Drawing.Size(150, 30);
+            this.txt_rays.TabIndex = 46;
+            // 
+            // btn_add_medical
+            // 
+            this.btn_add_medical.Location = new System.Drawing.Point(701, 231);
+            this.btn_add_medical.Name = "btn_add_medical";
+            this.btn_add_medical.Size = new System.Drawing.Size(88, 24);
+            this.btn_add_medical.TabIndex = 45;
+            this.btn_add_medical.Text = "اضافة";
+            this.btn_add_medical.UseVisualStyleBackColor = true;
+            this.btn_add_medical.Click += new System.EventHandler(this.btn_add_medical_Click);
+            // 
+            // btn_delete_medical
+            // 
+            this.btn_delete_medical.Location = new System.Drawing.Point(605, 231);
+            this.btn_delete_medical.Name = "btn_delete_medical";
+            this.btn_delete_medical.Size = new System.Drawing.Size(90, 24);
+            this.btn_delete_medical.TabIndex = 44;
+            this.btn_delete_medical.Text = "حذف";
+            this.btn_delete_medical.UseVisualStyleBackColor = true;
+            this.btn_delete_medical.Click += new System.EventHandler(this.btn_delete_medical_Click);
+            // 
+            // DGV_medical
+            // 
+            this.DGV_medical.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_medical.Location = new System.Drawing.Point(605, 120);
+            this.DGV_medical.Name = "DGV_medical";
+            this.DGV_medical.Size = new System.Drawing.Size(184, 105);
+            this.DGV_medical.TabIndex = 43;
+            this.DGV_medical.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_medical_CellClick);
             // 
             // label9
             // 
@@ -430,10 +680,11 @@
             this.examinationTypeTab.Controls.Add(this.examNameLbl);
             this.examinationTypeTab.Controls.Add(this.label1);
             this.examinationTypeTab.Font = new System.Drawing.Font("Dubai", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.examinationTypeTab.Location = new System.Drawing.Point(4, 22);
+            this.examinationTypeTab.ImageIndex = 9;
+            this.examinationTypeTab.Location = new System.Drawing.Point(4, 23);
             this.examinationTypeTab.Name = "examinationTypeTab";
             this.examinationTypeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.examinationTypeTab.Size = new System.Drawing.Size(837, 500);
+            this.examinationTypeTab.Size = new System.Drawing.Size(837, 499);
             this.examinationTypeTab.TabIndex = 1;
             this.examinationTypeTab.Text = "انواع الكشوفات";
             // 
@@ -564,9 +815,12 @@
             // cashTab
             // 
             this.cashTab.BackColor = System.Drawing.Color.LightGray;
-            this.cashTab.Location = new System.Drawing.Point(4, 22);
+            this.cashTab.Controls.Add(this.moneyTxt);
+            this.cashTab.Controls.Add(this.label26);
+            this.cashTab.ImageIndex = 8;
+            this.cashTab.Location = new System.Drawing.Point(4, 23);
             this.cashTab.Name = "cashTab";
-            this.cashTab.Size = new System.Drawing.Size(837, 500);
+            this.cashTab.Size = new System.Drawing.Size(837, 499);
             this.cashTab.TabIndex = 2;
             this.cashTab.Text = "الدخل";
             // 
@@ -576,9 +830,10 @@
             this.dailyReservTab.Controls.Add(this.PrescriptionBtn);
             this.dailyReservTab.Controls.Add(this.reservGrid);
             this.dailyReservTab.Controls.Add(this.label15);
-            this.dailyReservTab.Location = new System.Drawing.Point(4, 22);
+            this.dailyReservTab.ImageIndex = 7;
+            this.dailyReservTab.Location = new System.Drawing.Point(4, 23);
             this.dailyReservTab.Name = "dailyReservTab";
-            this.dailyReservTab.Size = new System.Drawing.Size(837, 500);
+            this.dailyReservTab.Size = new System.Drawing.Size(837, 499);
             this.dailyReservTab.TabIndex = 3;
             this.dailyReservTab.Text = "حجوزات اليوم";
             // 
@@ -667,11 +922,12 @@
             this.recipTab.BackColor = System.Drawing.Color.LightGray;
             this.recipTab.Controls.Add(this.RecipTabs);
             this.recipTab.Font = new System.Drawing.Font("Dubai", 8.249999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recipTab.Location = new System.Drawing.Point(4, 22);
+            this.recipTab.ImageIndex = 3;
+            this.recipTab.Location = new System.Drawing.Point(4, 23);
             this.recipTab.Name = "recipTab";
             this.recipTab.Padding = new System.Windows.Forms.Padding(3);
             this.recipTab.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.recipTab.Size = new System.Drawing.Size(841, 522);
+            this.recipTab.Size = new System.Drawing.Size(841, 521);
             this.recipTab.TabIndex = 1;
             this.recipTab.Text = "الاستقبال";
             this.recipTab.Click += new System.EventHandler(this.tabPage2_Click);
@@ -682,6 +938,7 @@
             this.RecipTabs.Controls.Add(this.newReservTab);
             this.RecipTabs.Controls.Add(this.reservScreenTab);
             this.RecipTabs.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.RecipTabs.ImageList = this.imageList1;
             this.RecipTabs.Location = new System.Drawing.Point(-4, 0);
             this.RecipTabs.Name = "RecipTabs";
             this.RecipTabs.RightToLeftLayout = true;
@@ -707,10 +964,11 @@
             this.newPatiTab.Controls.Add(this.label17);
             this.newPatiTab.Controls.Add(this.patiNameTxt);
             this.newPatiTab.Controls.Add(this.label16);
-            this.newPatiTab.Location = new System.Drawing.Point(4, 22);
+            this.newPatiTab.ImageIndex = 13;
+            this.newPatiTab.Location = new System.Drawing.Point(4, 23);
             this.newPatiTab.Name = "newPatiTab";
             this.newPatiTab.Padding = new System.Windows.Forms.Padding(3);
-            this.newPatiTab.Size = new System.Drawing.Size(841, 500);
+            this.newPatiTab.Size = new System.Drawing.Size(841, 499);
             this.newPatiTab.TabIndex = 0;
             this.newPatiTab.Text = "مريض جديد";
             // 
@@ -860,19 +1118,31 @@
             // newReservTab
             // 
             this.newReservTab.BackColor = System.Drawing.Color.LightGray;
-            this.newReservTab.Location = new System.Drawing.Point(4, 22);
+            this.newReservTab.Controls.Add(this.reseBtn);
+            this.newReservTab.Controls.Add(this.paymentTxt);
+            this.newReservTab.Controls.Add(this.label30);
+            this.newReservTab.Controls.Add(this.typeCombo);
+            this.newReservTab.Controls.Add(this.label29);
+            this.newReservTab.Controls.Add(this.patiCombo);
+            this.newReservTab.Controls.Add(this.label28);
+            this.newReservTab.Controls.Add(this.label27);
+            this.newReservTab.ImageIndex = 12;
+            this.newReservTab.Location = new System.Drawing.Point(4, 23);
             this.newReservTab.Name = "newReservTab";
             this.newReservTab.Padding = new System.Windows.Forms.Padding(3);
-            this.newReservTab.Size = new System.Drawing.Size(841, 500);
+            this.newReservTab.Size = new System.Drawing.Size(841, 499);
             this.newReservTab.TabIndex = 1;
             this.newReservTab.Text = "حجز جديد";
             // 
             // reservScreenTab
             // 
             this.reservScreenTab.BackColor = System.Drawing.Color.LightGray;
-            this.reservScreenTab.Location = new System.Drawing.Point(4, 22);
+            this.reservScreenTab.Controls.Add(this.dataGridView3);
+            this.reservScreenTab.Controls.Add(this.label31);
+            this.reservScreenTab.ImageIndex = 11;
+            this.reservScreenTab.Location = new System.Drawing.Point(4, 23);
             this.reservScreenTab.Name = "reservScreenTab";
-            this.reservScreenTab.Size = new System.Drawing.Size(841, 500);
+            this.reservScreenTab.Size = new System.Drawing.Size(841, 499);
             this.reservScreenTab.TabIndex = 2;
             this.reservScreenTab.Text = "شاشة الحجوزات";
             // 
@@ -880,15 +1150,17 @@
             // 
             this.settingTab.BackColor = System.Drawing.Color.LightGray;
             this.settingTab.Controls.Add(this.tabControl1);
-            this.settingTab.Location = new System.Drawing.Point(4, 22);
+            this.settingTab.ImageIndex = 4;
+            this.settingTab.Location = new System.Drawing.Point(4, 23);
             this.settingTab.Name = "settingTab";
-            this.settingTab.Size = new System.Drawing.Size(841, 522);
+            this.settingTab.Size = new System.Drawing.Size(841, 521);
             this.settingTab.TabIndex = 2;
             this.settingTab.Text = "الاعدادات";
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.usersTab);
+            this.tabControl1.ImageList = this.imageList1;
             this.tabControl1.Location = new System.Drawing.Point(-4, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeftLayout = true;
@@ -911,10 +1183,11 @@
             this.usersTab.Controls.Add(this.sectionsCombo);
             this.usersTab.Controls.Add(this.label23);
             this.usersTab.Controls.Add(this.label22);
-            this.usersTab.Location = new System.Drawing.Point(4, 22);
+            this.usersTab.ImageIndex = 14;
+            this.usersTab.Location = new System.Drawing.Point(4, 23);
             this.usersTab.Name = "usersTab";
             this.usersTab.Padding = new System.Windows.Forms.Padding(3);
-            this.usersTab.Size = new System.Drawing.Size(837, 500);
+            this.usersTab.Size = new System.Drawing.Size(837, 499);
             this.usersTab.TabIndex = 0;
             this.usersTab.Text = "المستخدمين";
             // 
@@ -1060,230 +1333,306 @@
             // aboutTab
             // 
             this.aboutTab.BackColor = System.Drawing.Color.LightGray;
-            this.aboutTab.Location = new System.Drawing.Point(4, 22);
+            this.aboutTab.Controls.Add(this.ezz);
+            this.aboutTab.Controls.Add(this.linkLabel2);
+            this.aboutTab.Controls.Add(this.linkLabel1);
+            this.aboutTab.Controls.Add(this.label35);
+            this.aboutTab.Controls.Add(this.label34);
+            this.aboutTab.Controls.Add(this.label33);
+            this.aboutTab.Controls.Add(this.label32);
+            this.aboutTab.ImageIndex = 6;
+            this.aboutTab.Location = new System.Drawing.Point(4, 23);
             this.aboutTab.Name = "aboutTab";
-            this.aboutTab.Size = new System.Drawing.Size(841, 522);
+            this.aboutTab.Size = new System.Drawing.Size(841, 521);
             this.aboutTab.TabIndex = 3;
             this.aboutTab.Text = "عن";
             // 
             // logOutTab
             // 
             this.logOutTab.BackColor = System.Drawing.Color.LightGray;
-            this.logOutTab.Location = new System.Drawing.Point(4, 22);
+            this.logOutTab.Controls.Add(this.button2);
+            this.logOutTab.Controls.Add(this.logOutBtn);
+            this.logOutTab.Controls.Add(this.label36);
+            this.logOutTab.ImageIndex = 5;
+            this.logOutTab.Location = new System.Drawing.Point(4, 23);
             this.logOutTab.Name = "logOutTab";
-            this.logOutTab.Size = new System.Drawing.Size(841, 522);
+            this.logOutTab.Size = new System.Drawing.Size(841, 521);
             this.logOutTab.TabIndex = 4;
             this.logOutTab.Text = "خروج";
             // 
-            // DGV_medical
+            // imageList1
             // 
-            this.DGV_medical.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_medical.Location = new System.Drawing.Point(605, 120);
-            this.DGV_medical.Name = "DGV_medical";
-            this.DGV_medical.Size = new System.Drawing.Size(184, 105);
-            this.DGV_medical.TabIndex = 43;
-            this.DGV_medical.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_medical_CellClick);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Dapino-Medical-Doctor.ico");
+            this.imageList1.Images.SetKeyName(1, "Dapino-Medical-People-Doctor.ico");
+            this.imageList1.Images.SetKeyName(2, "Dakirby309-Windows-8-Metro-Other-Power-Log-Off-Metro.ico");
+            this.imageList1.Images.SetKeyName(3, "Dapino-Office-Women-Office-women-red.ico");
+            this.imageList1.Images.SetKeyName(4, "Dtafalonso-Android-Lollipop-Settings.ico");
+            this.imageList1.Images.SetKeyName(5, "Hopstarter-Soft-Scraps-Button-Log-Off.ico");
+            this.imageList1.Images.SetKeyName(6, "Oxygen-Icons.org-Oxygen-Actions-help-about.ico");
+            this.imageList1.Images.SetKeyName(7, "Icons8-Windows-8-Time-Today.ico");
+            this.imageList1.Images.SetKeyName(8, "Google-Noto-Emoji-Objects-62886-heavy-dollar-sign.ico");
+            this.imageList1.Images.SetKeyName(9, "Iconsmind-Outline-Stethoscope.ico");
+            this.imageList1.Images.SetKeyName(10, "Treetog-I-Folder-Data.ico");
+            this.imageList1.Images.SetKeyName(11, "Mat-U-Camill-Devices-display-wide.ico");
+            this.imageList1.Images.SetKeyName(12, "Custom-Icon-Design-Flatastic-10-New-file.ico");
+            this.imageList1.Images.SetKeyName(13, "Icons-Land-Medical-People-Patient-Male.ico");
+            this.imageList1.Images.SetKeyName(14, "Oxygen-Icons.org-Oxygen-Actions-user-group-new.ico");
             // 
-            // btn_add_medical
+            // label26
             // 
-            this.btn_add_medical.Location = new System.Drawing.Point(701, 231);
-            this.btn_add_medical.Name = "btn_add_medical";
-            this.btn_add_medical.Size = new System.Drawing.Size(88, 24);
-            this.btn_add_medical.TabIndex = 45;
-            this.btn_add_medical.Text = "اضافة";
-            this.btn_add_medical.UseVisualStyleBackColor = true;
-            this.btn_add_medical.Click += new System.EventHandler(this.btn_add_medical_Click);
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Blue;
+            this.label26.Location = new System.Drawing.Point(388, 37);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(50, 27);
+            this.label26.TabIndex = 6;
+            this.label26.Text = "الدخل";
             // 
-            // btn_delete_medical
+            // moneyTxt
             // 
-            this.btn_delete_medical.Location = new System.Drawing.Point(605, 231);
-            this.btn_delete_medical.Name = "btn_delete_medical";
-            this.btn_delete_medical.Size = new System.Drawing.Size(90, 24);
-            this.btn_delete_medical.TabIndex = 44;
-            this.btn_delete_medical.Text = "حذف";
-            this.btn_delete_medical.UseVisualStyleBackColor = true;
-            this.btn_delete_medical.Click += new System.EventHandler(this.btn_delete_medical_Click);
+            this.moneyTxt.Location = new System.Drawing.Point(349, 81);
+            this.moneyTxt.Multiline = true;
+            this.moneyTxt.Name = "moneyTxt";
+            this.moneyTxt.ReadOnly = true;
+            this.moneyTxt.Size = new System.Drawing.Size(121, 79);
+            this.moneyTxt.TabIndex = 7;
             // 
-            // btn_add_rays
+            // label27
             // 
-            this.btn_add_rays.Location = new System.Drawing.Point(439, 231);
-            this.btn_add_rays.Name = "btn_add_rays";
-            this.btn_add_rays.Size = new System.Drawing.Size(88, 24);
-            this.btn_add_rays.TabIndex = 49;
-            this.btn_add_rays.Text = "اضافة";
-            this.btn_add_rays.UseVisualStyleBackColor = true;
-            this.btn_add_rays.Click += new System.EventHandler(this.btn_add_rays_Click);
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Blue;
+            this.label27.Location = new System.Drawing.Point(384, 35);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(73, 27);
+            this.label27.TabIndex = 18;
+            this.label27.Text = "حجز جديد";
             // 
-            // btn_delete_rays
+            // label28
             // 
-            this.btn_delete_rays.Location = new System.Drawing.Point(343, 231);
-            this.btn_delete_rays.Name = "btn_delete_rays";
-            this.btn_delete_rays.Size = new System.Drawing.Size(90, 24);
-            this.btn_delete_rays.TabIndex = 48;
-            this.btn_delete_rays.Text = "حذف";
-            this.btn_delete_rays.UseVisualStyleBackColor = true;
-            this.btn_delete_rays.Click += new System.EventHandler(this.btn_delete_rays_Click);
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label28.Location = new System.Drawing.Point(684, 92);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(49, 24);
+            this.label28.TabIndex = 19;
+            this.label28.Text = "الاسم : ";
             // 
-            // DGV_rays
+            // patiCombo
             // 
-            this.DGV_rays.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_rays.Location = new System.Drawing.Point(343, 120);
-            this.DGV_rays.Name = "DGV_rays";
-            this.DGV_rays.Size = new System.Drawing.Size(184, 105);
-            this.DGV_rays.TabIndex = 47;
-            this.DGV_rays.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_rays_CellClick);
+            this.patiCombo.FormattingEnabled = true;
+            this.patiCombo.Items.AddRange(new object[] {
+            "section1",
+            "section2",
+            "section3"});
+            this.patiCombo.Location = new System.Drawing.Point(114, 95);
+            this.patiCombo.Name = "patiCombo";
+            this.patiCombo.Size = new System.Drawing.Size(549, 21);
+            this.patiCombo.TabIndex = 21;
             // 
-            // txt_rays
+            // label29
             // 
-            this.txt_rays.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.txt_rays.Location = new System.Drawing.Point(343, 84);
-            this.txt_rays.Multiline = true;
-            this.txt_rays.Name = "txt_rays";
-            this.txt_rays.Size = new System.Drawing.Size(150, 30);
-            this.txt_rays.TabIndex = 46;
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label29.Location = new System.Drawing.Point(684, 152);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(79, 24);
+            this.label29.TabIndex = 22;
+            this.label29.Text = "نوع الكشف : ";
             // 
-            // btn_add_analysis
+            // typeCombo
             // 
-            this.btn_add_analysis.Location = new System.Drawing.Point(170, 231);
-            this.btn_add_analysis.Name = "btn_add_analysis";
-            this.btn_add_analysis.Size = new System.Drawing.Size(88, 24);
-            this.btn_add_analysis.TabIndex = 53;
-            this.btn_add_analysis.Text = "اضافة";
-            this.btn_add_analysis.UseVisualStyleBackColor = true;
-            this.btn_add_analysis.Click += new System.EventHandler(this.btn_add_analysis_Click);
+            this.typeCombo.FormattingEnabled = true;
+            this.typeCombo.Items.AddRange(new object[] {
+            "section1",
+            "section2",
+            "section3"});
+            this.typeCombo.Location = new System.Drawing.Point(114, 155);
+            this.typeCombo.Name = "typeCombo";
+            this.typeCombo.Size = new System.Drawing.Size(549, 21);
+            this.typeCombo.TabIndex = 23;
             // 
-            // btn_delete_analysis
+            // label30
             // 
-            this.btn_delete_analysis.Location = new System.Drawing.Point(74, 231);
-            this.btn_delete_analysis.Name = "btn_delete_analysis";
-            this.btn_delete_analysis.Size = new System.Drawing.Size(90, 24);
-            this.btn_delete_analysis.TabIndex = 52;
-            this.btn_delete_analysis.Text = "حذف";
-            this.btn_delete_analysis.UseVisualStyleBackColor = true;
-            this.btn_delete_analysis.Click += new System.EventHandler(this.btn_delete_analysis_Click);
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold);
+            this.label30.Location = new System.Drawing.Point(684, 213);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(94, 24);
+            this.label30.TabIndex = 24;
+            this.label30.Text = "المبلغ المدفوع : ";
             // 
-            // DGV_anaysis
+            // paymentTxt
             // 
-            this.DGV_anaysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_anaysis.Location = new System.Drawing.Point(74, 120);
-            this.DGV_anaysis.Name = "DGV_anaysis";
-            this.DGV_anaysis.Size = new System.Drawing.Size(184, 105);
-            this.DGV_anaysis.TabIndex = 51;
-            this.DGV_anaysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_anaysis_CellClick);
+            this.paymentTxt.Location = new System.Drawing.Point(114, 217);
+            this.paymentTxt.Multiline = true;
+            this.paymentTxt.Name = "paymentTxt";
+            this.paymentTxt.Size = new System.Drawing.Size(549, 20);
+            this.paymentTxt.TabIndex = 25;
             // 
-            // txt_analysis
+            // reseBtn
             // 
-            this.txt_analysis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.txt_analysis.Location = new System.Drawing.Point(74, 84);
-            this.txt_analysis.Multiline = true;
-            this.txt_analysis.Name = "txt_analysis";
-            this.txt_analysis.Size = new System.Drawing.Size(150, 30);
-            this.txt_analysis.TabIndex = 50;
+            this.reseBtn.Location = new System.Drawing.Point(354, 296);
+            this.reseBtn.Name = "reseBtn";
+            this.reseBtn.Size = new System.Drawing.Size(98, 35);
+            this.reseBtn.TabIndex = 26;
+            this.reseBtn.Text = "حجز";
+            this.reseBtn.UseVisualStyleBackColor = true;
             // 
-            // btn_add_syndrome
+            // label31
             // 
-            this.btn_add_syndrome.Location = new System.Drawing.Point(701, 452);
-            this.btn_add_syndrome.Name = "btn_add_syndrome";
-            this.btn_add_syndrome.Size = new System.Drawing.Size(88, 24);
-            this.btn_add_syndrome.TabIndex = 57;
-            this.btn_add_syndrome.Text = "اضافة";
-            this.btn_add_syndrome.UseVisualStyleBackColor = true;
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Blue;
+            this.label31.Location = new System.Drawing.Point(363, 41);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(117, 27);
+            this.label31.TabIndex = 19;
+            this.label31.Text = "شاشة الحجوزات ";
             // 
-            // btn_delete_syndrome
+            // dataGridView3
             // 
-            this.btn_delete_syndrome.Location = new System.Drawing.Point(605, 452);
-            this.btn_delete_syndrome.Name = "btn_delete_syndrome";
-            this.btn_delete_syndrome.Size = new System.Drawing.Size(90, 24);
-            this.btn_delete_syndrome.TabIndex = 56;
-            this.btn_delete_syndrome.Text = "حذف";
-            this.btn_delete_syndrome.UseVisualStyleBackColor = true;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nameCol,
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.dataGridView3.Location = new System.Drawing.Point(76, 88);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(645, 349);
+            this.dataGridView3.TabIndex = 20;
             // 
-            // DGV_syndrome
+            // nameCol
             // 
-            this.DGV_syndrome.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_syndrome.Location = new System.Drawing.Point(605, 346);
-            this.DGV_syndrome.Name = "DGV_syndrome";
-            this.DGV_syndrome.Size = new System.Drawing.Size(184, 100);
-            this.DGV_syndrome.TabIndex = 55;
+            this.nameCol.HeaderText = "الاسم";
+            this.nameCol.Name = "nameCol";
+            this.nameCol.Width = 200;
             // 
-            // button7
+            // Column1
             // 
-            this.button7.Location = new System.Drawing.Point(439, 452);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(88, 24);
-            this.button7.TabIndex = 61;
-            this.button7.Text = "اضافة";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Column1.HeaderText = "م";
+            this.Column1.Name = "Column1";
             // 
-            // button8
+            // Column2
             // 
-            this.button8.Location = new System.Drawing.Point(343, 452);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(90, 24);
-            this.button8.TabIndex = 60;
-            this.button8.Text = "حذف";
-            this.button8.UseVisualStyleBackColor = true;
+            this.Column2.HeaderText = "نوع الكشف";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 150;
             // 
-            // dataGridView6
+            // Column3
             // 
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Location = new System.Drawing.Point(343, 346);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.Size = new System.Drawing.Size(184, 100);
-            this.dataGridView6.TabIndex = 59;
+            this.Column3.HeaderText = "المبلغ المدفوع";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 150;
             // 
-            // button5
+            // ezz
             // 
-            this.button5.Location = new System.Drawing.Point(170, 452);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 24);
-            this.button5.TabIndex = 65;
-            this.button5.Text = "اضافة";
-            this.button5.UseVisualStyleBackColor = true;
+            this.ezz.AutoSize = true;
+            this.ezz.Location = new System.Drawing.Point(497, 198);
+            this.ezz.Name = "ezz";
+            this.ezz.Size = new System.Drawing.Size(53, 13);
+            this.ezz.TabIndex = 13;
+            this.ezz.TabStop = true;
+            this.ezz.Text = "Facebook";
             // 
-            // button6
+            // linkLabel2
             // 
-            this.button6.Location = new System.Drawing.Point(74, 452);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(90, 24);
-            this.button6.TabIndex = 64;
-            this.button6.Text = "حذف";
-            this.button6.UseVisualStyleBackColor = true;
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(602, 248);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(53, 13);
+            this.linkLabel2.TabIndex = 12;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Facebook";
             // 
-            // dataGridView7
+            // linkLabel1
             // 
-            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView7.Location = new System.Drawing.Point(74, 346);
-            this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(184, 100);
-            this.dataGridView7.TabIndex = 63;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(497, 148);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(53, 13);
+            this.linkLabel1.TabIndex = 11;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Facebook";
             // 
-            // txt_syndrome
+            // label35
             // 
-            this.txt_syndrome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.txt_syndrome.Location = new System.Drawing.Point(605, 310);
-            this.txt_syndrome.Multiline = true;
-            this.txt_syndrome.Name = "txt_syndrome";
-            this.txt_syndrome.Size = new System.Drawing.Size(150, 30);
-            this.txt_syndrome.TabIndex = 66;
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.label35.Location = new System.Drawing.Point(270, 239);
+            this.label35.Name = "label35";
+            this.label35.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label35.Size = new System.Drawing.Size(305, 24);
+            this.label35.TabIndex = 10;
+            this.label35.Text = "3-        Abd El-Rahman Mohamed";
             // 
-            // textBox3
+            // label34
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.textBox3.Location = new System.Drawing.Point(343, 310);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 30);
-            this.textBox3.TabIndex = 67;
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.label34.Location = new System.Drawing.Point(270, 189);
+            this.label34.Name = "label34";
+            this.label34.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label34.Size = new System.Drawing.Size(205, 24);
+            this.label34.TabIndex = 9;
+            this.label34.Text = "2-        EzzEldin Kadry";
             // 
-            // textBox4
+            // label33
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.textBox4.Location = new System.Drawing.Point(74, 310);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(150, 30);
-            this.textBox4.TabIndex = 68;
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.label33.Location = new System.Drawing.Point(270, 139);
+            this.label33.Name = "label33";
+            this.label33.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label33.Size = new System.Drawing.Size(197, 24);
+            this.label33.TabIndex = 8;
+            this.label33.Text = "1-        Heeba Gamal";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Tahoma", 20F);
+            this.label32.ForeColor = System.Drawing.Color.Blue;
+            this.label32.Location = new System.Drawing.Point(201, 81);
+            this.label32.Name = "label32";
+            this.label32.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label32.Size = new System.Drawing.Size(411, 33);
+            this.label32.TabIndex = 7;
+            this.label32.Text = "This program was developed by :";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Tahoma", 20F);
+            this.label36.ForeColor = System.Drawing.Color.Blue;
+            this.label36.Location = new System.Drawing.Point(273, 91);
+            this.label36.Name = "label36";
+            this.label36.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label36.Size = new System.Drawing.Size(310, 33);
+            this.label36.TabIndex = 8;
+            this.label36.Text = "هل انت متأكد من الخروج ؟";
+            // 
+            // logOutBtn
+            // 
+            this.logOutBtn.Location = new System.Drawing.Point(519, 209);
+            this.logOutBtn.Name = "logOutBtn";
+            this.logOutBtn.Size = new System.Drawing.Size(105, 51);
+            this.logOutBtn.TabIndex = 9;
+            this.logOutBtn.Text = "نعم";
+            this.logOutBtn.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(251, 209);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(105, 51);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "لا";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // ClinicMangForm
             // 
@@ -1292,6 +1641,7 @@
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(897, 572);
             this.Controls.Add(this.mainTabs);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ClinicMangForm";
             this.Text = "Clinic Manger ";
             this.Load += new System.EventHandler(this.ClinicMangForm_Load);
@@ -1300,9 +1650,17 @@
             this.docTabs.ResumeLayout(false);
             this.docMainInfoTab.ResumeLayout(false);
             this.docMainInfoTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).EndInit();
             this.examinationTypeTab.ResumeLayout(false);
             this.examinationTypeTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.cashTab.ResumeLayout(false);
+            this.cashTab.PerformLayout();
             this.dailyReservTab.ResumeLayout(false);
             this.dailyReservTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.reservGrid)).EndInit();
@@ -1310,17 +1668,20 @@
             this.RecipTabs.ResumeLayout(false);
             this.newPatiTab.ResumeLayout(false);
             this.newPatiTab.PerformLayout();
+            this.newReservTab.ResumeLayout(false);
+            this.newReservTab.PerformLayout();
+            this.reservScreenTab.ResumeLayout(false);
+            this.reservScreenTab.PerformLayout();
             this.settingTab.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.usersTab.ResumeLayout(false);
             this.usersTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_medical)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_rays)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_anaysis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_syndrome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.aboutTab.ResumeLayout(false);
+            this.aboutTab.PerformLayout();
+            this.logOutTab.ResumeLayout(false);
+            this.logOutTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1437,6 +1798,33 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox txt_syndrome;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.TextBox moneyTxt;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Button reseBtn;
+        private System.Windows.Forms.TextBox paymentTxt;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.ComboBox typeCombo;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.ComboBox patiCombo;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameCol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.LinkLabel ezz;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button logOutBtn;
+        private System.Windows.Forms.Label label36;
 
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(signInForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -35,6 +36,7 @@
             this.passTxt = new System.Windows.Forms.TextBox();
             this.logInBtn = new System.Windows.Forms.Button();
             this.signInGroup = new System.Windows.Forms.GroupBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.signInGroup.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +64,7 @@
             // logInBtn
             // 
             resources.ApplyResources(this.logInBtn, "logInBtn");
+            this.logInBtn.ImageList = this.imageList1;
             this.logInBtn.Name = "logInBtn";
             this.logInBtn.UseVisualStyleBackColor = true;
             this.logInBtn.Click += new System.EventHandler(this.logInBtn_Click);
@@ -78,6 +81,14 @@
             this.signInGroup.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.signInGroup.Name = "signInGroup";
             this.signInGroup.TabStop = false;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Dakirby309-Windows-8-Metro-Other-Power-Log-Off-Metro.ico");
+            this.imageList1.Images.SetKeyName(1, "User-Interface-Enter-icon.png");
+            this.imageList1.Images.SetKeyName(2, "Icons8-Windows-8-Users-Enter-2.ico");
             // 
             // signInForm
             // 
@@ -101,6 +112,7 @@
         private System.Windows.Forms.TextBox passTxt;
         private System.Windows.Forms.Button logInBtn;
         private System.Windows.Forms.GroupBox signInGroup;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
